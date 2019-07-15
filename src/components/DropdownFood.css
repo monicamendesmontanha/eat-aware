@@ -9,36 +9,60 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: linear-gradient(white, rgb(149, 226, 139));
 }
 
 .question {
+  /* border: 2px solid red; */
   text-align: center;
   width: 95%;
   font-family: 'Kranky', cursive;
-  padding: 0;
   margin: 0 auto;
-  padding: 10px;
-  font-size: 25px;
-  color: rgb(31, 53, 31);
+  margin-top: 25px;
+  padding-bottom: 13px;
+  font-size: 28px;
+  /* color: rgb(31, 53, 31); */
+  color: rgb(83, 150, 74);
 }
 
 .dropdownFood {
-  width: 80%;
-  font-size: 15px;
-  /* border: 2px solid rgb(149, 226, 139); */
+  width: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 35px;
+  border: 1px dashed rgb(83, 150, 74);
+  padding-left: 20px;
+  font-family: "Just Me Again Down Here", cursive;
+  color: rgb(31, 53, 31);
+  background-color: white;
 }
 
 .findOut {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 8px;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 60px;
   font-family: 'Frijole', cursive;
-  border: 2px solid white;
-  border-radius: 8px;
-  color: rgb(31, 53, 31);
-  background-color: rgb(31, 53, 31);
-  background-image: radial-gradient(white, rgb(149, 226, 139));
+  border: 2px solid rgb(48, 94, 48);
+  border-radius: 4px;
+  background-color: rgb(48, 94, 48);
+  color:  white
 }
+
+/*Reset Safari User Agent Styles*/
+* {-webkit-margin-before: 0px;}
+* {-webkit-margin-end: 0px; }
+* {-webkit-margin-after: 0px;}
+* {-webkit-margin-start: 0px;}
+
+* {-webkit-padding-before: 0px;}
+* {-webkit-padding-end: 0px;}
+* {-webkit-padding-after: 0px;}
+* {-webkit-padding-start: 0px;}
+
+
+* {-webkit-appearance: none;}
+* {-moz-appearance: none;}
