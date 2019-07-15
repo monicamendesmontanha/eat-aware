@@ -7,35 +7,35 @@ const foodOptions = [
     text: "Milk (almond)",
     value: "Milk (almond)",
     type: "milk",
-    image: { avatar: true, src: "/images/avatar/small/jenny.jpg" }
+    image: {  product: true, src: "../images/product/almondMilk.png" }
   },
   {
     key: "Milk (dairy)",
     text: "Milk (dairy)",
     value: "Milk (dairy)",
     type: "milk",
-    image: { avatar: true, src: "/images/avatar/small/elliot.jpg" }
+    image: { product: true, src: "../images/product/dairyMilk.png" }
   },
   {
     key: "Milk (oat)",
     text: "Milk (oat)",
     value: "Milk (oat)",
     type: "milk",
-    image: { avatar: true, src: "/images/avatar/small/stevie.jpg" }
+    image: { product: true, src: "../images/product/oatMilk.png" }
   },
   {
     key: "Milk (rice)",
     text: "Milk (rice)",
     value: "Milk (rice)",
     type: "milk",
-    image: { avatar: true, src: "/images/avatar/small/christian.jpg" }
+    image: { product: true, src: "../images/product/riceMilk.png" }
   },
   {
     key: "Milk (soy)",
     text: "Milk (soy)",
     value: "Milk (soy)",
     type: "milk",
-    image: { avatar: true, src: "/images/avatar/small/matt.jpg" }
+    image: { product: true, src: "../images/product/soyMilk.png" }
   }
 ];
 
