@@ -17,7 +17,7 @@
   font-family: "Just Me Again Down Here", cursive;
   font-size: 20px;
   color: black;
-  padding: 20px;
+  padding-bottom: 15px;
   background-image: linear-gradient(white, rgb(149, 226, 139));
 }
 
@@ -37,7 +37,7 @@
   padding: 0;
   margin: 0 auto;
   padding: 10px;
-  font-size: 35px;
+  font-size: 28px;
   color: rgb(31, 53, 31);
 }
 
