@@ -11,6 +11,15 @@
   padding: 0;
 }
 
+.initialImg {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
 .initialText {
   /* border: 1px solid aquamarine; */
   text-align: center;
@@ -19,19 +28,13 @@
   font-family: "Just Me Again Down Here", cursive;
   color: black;
   box-sizing: border-box;
-  padding-bottom: 13px;
+  /* padding-bottom: 13px; */
   /* background-image: linear-gradient(white, rgb(149, 226, 139)); */
   padding-left: 5px;
   padding-right: 5px;
   font-size: 30px;
 }
 
-.initialImg {
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-  height: 600px;
-}
 
 
 /* Media Query Mixins */

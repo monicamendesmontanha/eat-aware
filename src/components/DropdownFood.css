@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(white, rgb(149, 226, 139));
+  min-height: 380px;
+  margin-top: 0;
 }
 
 .question {
@@ -18,10 +20,9 @@
   width: 95%;
   font-family: 'Kranky', cursive;
   margin: 0 auto;
-  margin-top: 25px;
+  /* margin-top: 15px; */
   padding-bottom: 13px;
   font-size: 28px;
-  /* color: rgb(31, 53, 31); */
   color: rgb(83, 150, 74);
 }
 
@@ -44,12 +45,12 @@
   font-size: 18px;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 60px;
   font-family: 'Frijole', cursive;
   border: 2px solid rgb(48, 94, 48);
   border-radius: 4px;
   background-color: rgb(48, 94, 48);
-  color:  white
+  color:  white;
+  /* margin-bottom: 70px; */
 }
 
 /*Reset Safari User Agent Styles*/
