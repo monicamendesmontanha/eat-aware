@@ -14,9 +14,13 @@ class FindOutFood extends Component {
             environmental footprint, from saving water to reducing pollution and
             the loss of forests.
           </p>
-          <p className="question">How do your food choices impact on the environment?</p>
-          <DropdownFood />
-          <button className="findOutButton">Find Out!</button>
+          <form>
+            <p className="question">How do your food choices impact on the environment?</p>
+            <DropdownFood />
+            <div>
+            <input className="findOut" type="submit" value="Find Out !" />
+            </div>
+          </form>
         </div>
       </>
     );

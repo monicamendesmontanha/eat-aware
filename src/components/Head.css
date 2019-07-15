@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kranky&display=swap');
 
 h1 {
   /* border: 2px solid red; */
   text-align: center;
-  width: 100%;
-  font-family: 'Zeyada', cursive;
-  font-size: 60px;
-  color: rgb(45, 51, 45);
+  font-family: 'Frijole', cursive;
+  /* font-family: 'Zeyada', cursive; */
+  font-size: 38px;
+  color: rgb(31, 53, 31);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 15px;
+  background-image: linear-gradient(rgb(149, 226, 139), white);
 }
 
 h2 {
   /* border: 2px solid green; */
   text-align: center;
   width: 100%;
-  /* font-family: 'Baumans', cursive; */
-  font-family: 'Just Me Again Down Here', cursive;
+  /* font-family: 'East Sea Dokdo', cursive; */
+  font-family: 'Kranky', cursive;
+  font-size: 18px;
   color: rgb(83, 150, 74);
+  padding: 4px;
+  margin-top: 0;
 }
