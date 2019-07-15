@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Head from './Head';
+import FindOutFood from './FindOutFood';
 
-function App() {
-  return (
-    <div>
-      <p>Eat well for a better planet!</p>
-      <p>Your diet choices can make a big difference to your personal environmental footprint, from saving water to reducing pollution and the loss of forests.</p>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+      <Head />
+      <FindOutFood />
+      </>
+    );
+  }
 }
 
 export default App;
