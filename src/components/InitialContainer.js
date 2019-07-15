@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import worldFood from '../images/World-Food.png'
 // import food from '../images/food.png' // relative path to image
-import DropdownFood from './DropdownFood'
-import './FindOutFood.css'
+import './InitialContainer.css'
 
-class FindOutFood extends Component {
+class InitialContainer extends Component {
   render() {
     return (
       <>
@@ -15,17 +14,10 @@ class FindOutFood extends Component {
             environmental footprint, from saving water to reducing pollution and
             the loss of forests.
           </p>
-          <form>
-            <p className="question">How do your food choices impact on the environment?</p>
-            <DropdownFood />
-            <div>
-            <input className="findOut" type="submit" value="Find Out !" />
-            </div>
-          </form>
         </div>
       </>
     );
   }
 }
 
-export default FindOutFood;
+export default InitialContainer;

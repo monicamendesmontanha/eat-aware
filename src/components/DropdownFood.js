@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Dropdown } from "semantic-ui-react";
+import './DropdownFood.css'
 
 const foodOptions = [
   {
@@ -43,12 +44,16 @@ class DropdownFood extends Component {
   render() {
     return (
       <>
+        <p className="question">How do your food choices impact on the environment?</p>
         <Dropdown
           placeholder="Select Food"
           fluid
           selection
           options={foodOptions}
         />
+        <div>
+          <input className="findOut" type="submit" value="Find Out !" />
+        </div>
       </>
     );
   }

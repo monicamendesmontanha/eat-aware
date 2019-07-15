@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kranky&display=swap');
+
+.initialContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.initialText {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 20px;
+  color: black;
+  padding-bottom: 15px;
+  background-image: linear-gradient(white, rgb(149, 226, 139));
+}
+
+.initialImg {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
