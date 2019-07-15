@@ -6,15 +6,19 @@
 @import url('https://fonts.googleapis.com/css?family=Kranky&display=swap');
 
 .question {
-  /* border: 2px solid red; */
   text-align: center;
-  width: 100%;
+  width: 95%;
   font-family: 'Kranky', cursive;
   padding: 0;
   margin: 0 auto;
   padding: 10px;
-  font-size: 28px;
+  font-size: 26px;
   color: rgb(31, 53, 31);
+}
+
+.dropdownFood {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .findOut {
