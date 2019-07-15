@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+
+h1 {
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 100%;
+  font-family: 'Zeyada', cursive;
+  font-size: 60px;
+  color: rgb(45, 51, 45);
+}
+
+h2 {
+  /* border: 2px solid green; */
+  text-align: center;
+  width: 100%;
+  /* font-family: 'Baumans', cursive; */
+  font-family: 'Just Me Again Down Here', cursive;
+  color: rgb(83, 150, 74);
+}
