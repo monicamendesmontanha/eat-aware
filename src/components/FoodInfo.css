@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+
+.productImgName {
+  /* border: 2px solid green; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto 0;
+  padding: 0;
+  margin-top: 30px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+}
+
+
+.productImg {
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  height: 200px;
+  /* width: 50%; */
+  /* margin-right: 20px; */
+
+}
+
+.productName {
+  /* border: 2px solid blue; */
+  box-sizing: border-box;
+  font-size: 40px;
+  color: black;
+  font-family: "Just Me Again Down Here", cursive;
+  width: 65%;
+  text-align: center;
+}
