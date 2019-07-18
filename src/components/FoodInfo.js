@@ -40,14 +40,14 @@ class FoodInfo extends Component {
 
 
         <div className="item">
-          <p className="descriptionItem">That's the equivalent of driving a regular petrol car <span className="data">{petrolCar}</span></p>
+          <p className="descriptionItem">That's the equivalent of driving a regular petrol car <span className="data">{petrolCar}</span>.</p>
           <div className="itemIcon">
             <FontAwesomeIcon icon={faCarSide} className="car" />
           </div>
         </div>
 
         <div className="item">
-          <p className="descriptionItem">The consumption also uses <span className="data">{water}</span> of water, equal to <span className="data">{product.showers}</span> lasting eight minutes.</p>
+          <p className="descriptionItem">To produce it requires <span className="data">{water}</span> of water, equal to <span className="data">{product.showers}</span> lasting eight minutes.</p>
           <div className="itemIcon">
             <FontAwesomeIcon icon={faWater} className="water"/>
           </div>
