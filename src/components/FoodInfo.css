@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
-  margin: auto 0;
+  width: 90%;
+  margin: 0 auto;
   padding: 0;
   margin-top: 30px;
   /* margin-left: 10px;
@@ -30,6 +30,14 @@
   font-size: 40px;
   color: black;
   font-family: "Just Me Again Down Here", cursive;
-  width: 65%;
+  width: 75%;
   text-align: center;
+}
+
+.impactDescriptionProduct {
+  /* border: 2px solid yellow; */
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
 }
