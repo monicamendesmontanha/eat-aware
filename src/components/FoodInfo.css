@@ -15,7 +15,7 @@
   width: 90%;
   margin: 0 auto;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 15px;
   /* margin-left: 10px;
   margin-right: 10px; */
 }
@@ -90,4 +90,19 @@
   width: 70%;
   margin-right: 10px;
   text-align: left;
+}
+
+.backButton {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+  font-family: 'Frijole', cursive;
+  border: 2px solid rgb(48, 94, 48);
+  border-radius: 4px;
+  background-color: rgb(48, 94, 48);
+  color:  white;
+  margin-bottom: 70px;
 }

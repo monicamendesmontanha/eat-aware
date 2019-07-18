@@ -53,6 +53,10 @@ class FoodInfo extends Component {
           </div>
         </div>
 
+        <div>
+        <button className="backButton">Choose another item</button>
+        </div>
+
         </div>
       </>
     );
