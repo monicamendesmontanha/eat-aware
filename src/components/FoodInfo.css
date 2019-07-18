@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kranky&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 .productImgName {
   /* border: 2px solid green; */
@@ -28,16 +34,60 @@
   /* border: 2px solid blue; */
   box-sizing: border-box;
   font-size: 40px;
-  color: black;
-  font-family: "Just Me Again Down Here", cursive;
+  color:  rgb(83, 150, 74);
   width: 75%;
   text-align: center;
+  /* font-family: "Just Me Again Down Here", cursive; */
+  font-family: 'Frijole', cursive;
+  padding-top: 35px;
+  /* Se colocar chart com comparacão dos tipos de produtos, tirar o padding-top e voltar a letra para: "Just Me Again Down Here" */
 }
 
 .impactDescriptionProduct {
   /* border: 2px solid yellow; */
   box-sizing: border-box;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 5px;
+  color: color;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.data {
+  font-family: 'Frijole', cursive;
+  color :rgb(83, 150, 74);
+}
+
+.item {
+ border-bottom: 1px dashed rgb(24, 139, 101);
+ box-sizing: border-box;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+
+}
+
+.itemIcon {
+  border: 2px solid rgb(24, 139, 101);
+  box-sizing: border-box;
+  width: 22%;
+  font-size: 40px;
+  /* color: rgb(24, 139, 101); */
+  color: white;
+  background-color: rgb(31, 53, 31);
+  border-radius: 100%;
+  padding: 2px;
+  margin-bottom: 4px;
+}
+
+.descriptionItem {
+  box-sizing: border-box;
+  width: 70%;
+  margin-right: 10px;
+  text-align: left;
 }
