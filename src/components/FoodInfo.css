@@ -75,7 +75,7 @@
 .itemIcon {
   border: 2px solid rgb(24, 139, 101);
   box-sizing: border-box;
-  width: 22%;
+  width: 15%;
   font-size: 40px;
   /* color: rgb(24, 139, 101); */
   color: white;
@@ -105,4 +105,34 @@
   background-color: rgb(48, 94, 48);
   color:  white;
   margin-bottom: 70px;
+}
+
+
+
+/* Media Query Mixins */
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 700px) {
+  .itemIcon {
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 701px)  and (max-width: 900px) {
+  .itemIcon {
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .itemIcon {
+    width: 8%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .itemIcon {
+    width: 6%;
+  }
 }
