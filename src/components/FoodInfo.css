@@ -69,7 +69,6 @@
  justify-content: center;
  align-items: center;
  margin-bottom: 10px;
-
 }
 
 .itemIcon {
@@ -134,5 +133,8 @@
 @media screen and (min-width: 1201px) {
   .itemIcon {
     width: 6%;
+  }
+  .descriptionItem {
+    font-size: 20px;
   }
 }
