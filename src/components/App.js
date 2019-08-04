@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Head from "./Head";
 import InitialContainer from "./InitialContainer";
-import FoodDropdown from "./FoodDropdown";
+import ProductDropdown from "./ProductDropdown";
 import ProductInfo from "./ProductInfo";
 
 class App extends Component {
@@ -43,7 +43,7 @@ class App extends Component {
         ) : (
           <>
             <InitialContainer />
-            <FoodDropdown
+            <ProductDropdown
               handleChange={this.handleFoodChange}
               handleSubmit={this.handleFoodSubmit}
               selectedFood={this.state.selectedFood}

@@ -1,7 +1,7 @@
 import React from "react";
-import "./FoodDropdown.css";
+import "./ProductDropdown.css";
 
-const FoodDropdown = (props) => {
+const ProductDropdown = (props) => {
   return (
     <>
       <form className="searchFoodForm" onSubmit={props.handleSubmit}>
@@ -10,7 +10,7 @@ const FoodDropdown = (props) => {
             How do your food choices impact on the environment?
           </p>
           <select
-            className="foodDropdown"
+            className="productDropdown"
             value={props.selectedFood}
             onChange={props.handleChange}
           >
@@ -28,4 +28,4 @@ const FoodDropdown = (props) => {
   );
 };
 
-export default FoodDropdown;
+export default ProductDropdown;
