@@ -10,7 +10,7 @@ const products = [
   },
   {
     name: "Milk (almond)",
-    img: "../images/product/almondMilk.png",
+    img: "products/almondMilk.png",
     greenhouseEmissions: "51 kg",
     petrolCar: "210 km",
     heating: "8 days",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     name: "Milk (dairy)",
-    img: "../images/product/dairyMilk.png",
+    img: "products/dairyMilk.png",
     greenhouseEmissions: "229 kg",
     petrolCar: "941 km",
     heating: "36 days",
@@ -28,7 +28,7 @@ const products = [
   },
   {
     name: "Milk (oat)",
-    img: "../images/product/oatMilk.png",
+    img: "products/oatMilk.png",
     greenhouseEmissions: "65 kg",
     petrolCar: "270 km",
     heating: "10 days",
@@ -37,7 +37,7 @@ const products = [
   },
   {
     name: "Milk (rice)",
-    img: "../images/product/riceMilk.png",
+    img: "products/riceMilk.png",
     greenhouseEmissions: "86 kg",
     petrolCar: "353 km",
     heating: "13 days",
@@ -46,7 +46,7 @@ const products = [
   },
   {
     name: "Milk (soy)",
-    img: "../images/product/soyMilk.png",
+    img: "products/soyMilk.png",
     greenhouseEmissions: "71 kg",
     petrolCar: "293 km",
     heating: "11 days",
