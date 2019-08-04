@@ -65,12 +65,16 @@ class App extends Component {
 
     this.handleProductChange = this.handleProductChange.bind(this);
     this.handleProductSubmit = this.handleProductSubmit.bind(this);
-    this.handleBackToChooseAnotherProduct = this.handleBackToChooseAnotherProduct.bind(this);
+    this.handleBackToChooseAnotherProduct = this.handleBackToChooseAnotherProduct.bind(
+      this
+    );
   }
 
   handleProductChange(event) {
     const productName = event.target.value;
-    const selectedProduct = products.find(product => product.name === productName);
+    const selectedProduct = products.find(
+      product => product.name === productName
+    );
 
     this.setState({ selectedProduct: selectedProduct });
   }
@@ -81,7 +85,7 @@ class App extends Component {
   }
 
   handleBackToChooseAnotherProduct() {
-    this.setState({ isProductSelected: false,  selectedProduct: "" });
+    this.setState({ isProductSelected: false, selectedProduct: "" });
   }
 
   render() {

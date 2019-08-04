@@ -14,9 +14,11 @@ const ProductDropdown = props => {
             value={props.selectedFood}
             onChange={props.handleChange}
           >
-            {
-              props.products.map((product) => <option key={product.name} value={product.name}>{product.name}</option>)
-            }
+            {props.products.map(product => (
+              <option key={product.name} value={product.name}>
+                {product.name}
+              </option>
+            ))}
           </select>
         </label>
         <input className="findOut" type="submit" value="Find Out !" />

@@ -7,7 +7,11 @@ const ProductInfo = props => {
   return (
     <>
       <div className="productImgName">
-        <img className="productImg" src={props.product.img} alt={props.product.img} />
+        <img
+          className="productImg"
+          src={props.product.img}
+          alt={props.product.img}
+        />
         <p className="productName">{props.product.name}</p>
       </div>
 
@@ -15,8 +19,8 @@ const ProductInfo = props => {
         <div className="item">
           <p className="descriptionItem">
             This product contributes{" "}
-            <span className="data">{props.product.greenhouseEmissions}</span> to annual greenhouse
-            gas emissions.{" "}
+            <span className="data">{props.product.greenhouseEmissions}</span> to
+            annual greenhouse gas emissions.{" "}
           </p>
           <div className="itemIcon">
             <FontAwesomeIcon icon={faTree} className="tree" />
@@ -35,9 +39,10 @@ const ProductInfo = props => {
 
         <div className="item">
           <p className="descriptionItem">
-            To produce it requires <span className="data">{props.product.water}</span> of
-            water, equal to <span className="data">{props.product.showers}</span>{" "}
-            lasting eight minutes.
+            To produce it requires{" "}
+            <span className="data">{props.product.water}</span> of water, equal
+            to <span className="data">{props.product.showers}</span> lasting
+            eight minutes.
           </p>
           <div className="itemIcon">
             <FontAwesomeIcon icon={faWater} className="water" />
