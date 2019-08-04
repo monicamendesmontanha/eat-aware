@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductDropdown.css";
 
-const ProductDropdown = (props) => {
+const ProductDropdown = props => {
   return (
     <>
       <form className="searchFoodForm" onSubmit={props.handleSubmit}>
@@ -14,7 +14,7 @@ const ProductDropdown = (props) => {
             value={props.selectedFood}
             onChange={props.handleChange}
           >
-          <option value="">Please select a food</option>
+            <option value="">Please select a food</option>
             <option value="Milk (almond)">Milk (almond)</option>
             <option value="Milk (dairy)">Milk (dairy)</option>
             <option value="Milk (oat)">Milk (oat)</option>
