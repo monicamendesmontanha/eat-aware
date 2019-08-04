@@ -8,12 +8,13 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      selectedFood: '',
+      selectedFood: "",
       isFoodSelected: false
     };
 
     this.handleFoodChange = this.handleFoodChange.bind(this);
     this.handleFoodSubmit = this.handleFoodSubmit.bind(this);
+    this.handleBackToChooseAnotherProduct = this.handleBackToChooseAnotherProduct.bind(this);
   }
 
   handleFoodChange(event) {
@@ -25,13 +26,20 @@ class App extends Component {
     this.setState({ isFoodSelected: true });
   }
 
+  handleBackToChooseAnotherProduct() {
+    this.setState({ isFoodSelected: false,  selectedFood: "" });
+  }
+
   render() {
     return (
       <>
         <Head />
 
         {this.state.isFoodSelected ? (
-          <ProductInfo  food={this.state.selectedFood}/>
+          <ProductInfo
+            food={this.state.selectedFood}
+            handleBack={this.handleBackToChooseAnotherProduct}
+          />
         ) : (
           <>
             <InitialContainer />
