@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import './FoodInfo.css'
 import almondMilk from '../images/product/almondMilk.png'
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCarSide, faWater, faTree, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faCarSide, faWater, faTree } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const product = {
