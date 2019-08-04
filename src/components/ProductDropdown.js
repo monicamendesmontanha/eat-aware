@@ -1,6 +1,15 @@
 import React from "react";
 import "./ProductDropdown.css";
 
+const products = [
+  "Please select a food",
+  "Milk (almond)",
+  "Milk (dairy)",
+  "Milk (oat)",
+  "Milk (rice)",
+  "Milk (soy)"
+];
+
 const ProductDropdown = props => {
   return (
     <>
@@ -14,12 +23,9 @@ const ProductDropdown = props => {
             value={props.selectedFood}
             onChange={props.handleChange}
           >
-            <option value="">Please select a food</option>
-            <option value="Milk (almond)">Milk (almond)</option>
-            <option value="Milk (dairy)">Milk (dairy)</option>
-            <option value="Milk (oat)">Milk (oat)</option>
-            <option value="Milk (rice)">Milk (rice)</option>
-            <option value="Milk (soy)">Milk (soy)</option>
+            {
+              products.map((product) => <option value={product}>{product}</option>)
+            }
           </select>
         </label>
         <input className="findOut" type="submit" value="Find Out !" />
