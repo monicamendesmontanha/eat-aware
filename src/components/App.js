@@ -8,26 +8,26 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      selectedFood: "",
-      isFoodSelected: false
+      selectedProduct: "",
+      isProductSelected: false
     };
 
-    this.handleFoodChange = this.handleFoodChange.bind(this);
-    this.handleFoodSubmit = this.handleFoodSubmit.bind(this);
+    this.handleProductChange = this.handleProductChange.bind(this);
+    this.handleProductSubmit = this.handleProductSubmit.bind(this);
     this.handleBackToChooseAnotherProduct = this.handleBackToChooseAnotherProduct.bind(this);
   }
 
-  handleFoodChange(event) {
-    this.setState({ selectedFood: event.target.value });
+  handleProductChange(event) {
+    this.setState({ selectedProduct: event.target.value });
   }
 
-  handleFoodSubmit(event) {
+  handleProductSubmit(event) {
     event.preventDefault();
-    this.setState({ isFoodSelected: true });
+    this.setState({ isProductSelected: true });
   }
 
   handleBackToChooseAnotherProduct() {
-    this.setState({ isFoodSelected: false,  selectedFood: "" });
+    this.setState({ isProductSelected: false,  selectedProduct: "" });
   }
 
   render() {
@@ -35,18 +35,18 @@ class App extends Component {
       <>
         <Head />
 
-        {this.state.isFoodSelected ? (
+        {this.state.isProductSelected ? (
           <ProductInfo
-            food={this.state.selectedFood}
+            food={this.state.selectedProduct}
             handleBack={this.handleBackToChooseAnotherProduct}
           />
         ) : (
           <>
             <InitialContainer />
             <ProductDropdown
-              handleChange={this.handleFoodChange}
-              handleSubmit={this.handleFoodSubmit}
-              selectedFood={this.state.selectedFood}
+              handleChange={this.handleProductChange}
+              handleSubmit={this.handleProductSubmit}
+              selectedProduct={this.state.selectedProduct}
             />
           </>
         )}
