@@ -1,37 +1,21 @@
 import React from "react";
 import "./ProductInfo.css";
-import almondMilk from "../images/product/almondMilk.png";
 import { faCarSide, faWater, faTree } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const product = {
-  name: "Almond Milk",
-  img: "../images/product/almondMilk.png",
-  greenhouseEmissions: "51 kg",
-  petrolCar: "210 km",
-  heating: "8 days",
-  water: "27,042 litres",
-  showers: "416 showers"
-};
-
-const productName = product.name;
-const greenhouseGas = product.greenhouseEmissions;
-const petrolCar = product.petrolCar;
-const water = product.water;
 
 const ProductInfo = props => {
   return (
     <>
       <div className="productImgName">
-        <img className="productImg" src={almondMilk} alt={"almondMilk"} />
-        <p className="productName">{productName}</p>
+        <img className="productImg" src={props.product.img} alt={props.product.img} />
+        <p className="productName">{props.product.name}</p>
       </div>
 
       <div className="impactDescriptionProduct">
         <div className="item">
           <p className="descriptionItem">
             This product contributes{" "}
-            <span className="data">{greenhouseGas}</span> to annual greenhouse
+            <span className="data">{props.product.greenhouseEmissions}</span> to annual greenhouse
             gas emissions.{" "}
           </p>
           <div className="itemIcon">
@@ -42,7 +26,7 @@ const ProductInfo = props => {
         <div className="item">
           <p className="descriptionItem">
             That's the equivalent of driving a regular petrol car{" "}
-            <span className="data">{petrolCar}</span>.
+            <span className="data">{props.product.petrolCar}</span>.
           </p>
           <div className="itemIcon">
             <FontAwesomeIcon icon={faCarSide} className="car" />
@@ -51,8 +35,8 @@ const ProductInfo = props => {
 
         <div className="item">
           <p className="descriptionItem">
-            To produce it requires <span className="data">{water}</span> of
-            water, equal to <span className="data">{product.showers}</span>{" "}
+            To produce it requires <span className="data">{props.product.water}</span> of
+            water, equal to <span className="data">{props.product.showers}</span>{" "}
             lasting eight minutes.
           </p>
           <div className="itemIcon">
