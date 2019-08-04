@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Head from "./Head";
 import InitialContainer from "./InitialContainer";
 import FoodDropdown from "./FoodDropdown";
-import FoodInfo from "./FoodInfo";
+import ProductInfo from "./ProductInfo";
 
 class App extends Component {
   constructor() {
@@ -31,7 +31,7 @@ class App extends Component {
         <Head />
 
         {this.state.isFoodSelected ? (
-          <FoodInfo  food={this.state.selectedFood}/>
+          <ProductInfo  food={this.state.selectedFood}/>
         ) : (
           <>
             <InitialContainer />

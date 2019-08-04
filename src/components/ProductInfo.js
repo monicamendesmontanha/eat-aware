@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './FoodInfo.css'
+import './ProductInfo.css'
 import almondMilk from '../images/product/almondMilk.png'
 import { faCarSide, faWater, faTree } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +19,7 @@ const greenhouseGas = product.greenhouseEmissions;
 const petrolCar = product.petrolCar;
 const water = product.water;
 
-class FoodInfo extends Component {
+class ProductInfo extends Component {
   render() {
     return (
       <>
@@ -62,4 +62,4 @@ class FoodInfo extends Component {
   }
 }
 
-export default FoodInfo;
+export default ProductInfo;
