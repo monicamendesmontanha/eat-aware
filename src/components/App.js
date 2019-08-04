@@ -81,7 +81,9 @@ class App extends Component {
 
   handleProductSubmit(event) {
     event.preventDefault();
-    this.setState({ isProductSelected: true });
+    if (this.state.selectedProduct) {
+      this.setState({ isProductSelected: true });
+    }
   }
 
   handleBackToChooseAnotherProduct() {
