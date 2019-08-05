@@ -16,6 +16,8 @@ h1 {
   padding-top: 40px;
   margin-top: 0;
   background-image: linear-gradient(rgb(149, 226, 139), white);
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -28,4 +30,5 @@ h2 {
   padding: 4px;
   margin-top: 5px;
   margin-top: 5px;
+  box-sizing: border-box;
 }
