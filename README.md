@@ -24,7 +24,7 @@ Features:
 <img width="239" alt="Screen Shot 2019-08-05 at 11 40 56" src="https://user-images.githubusercontent.com/33978352/62434231-27512300-b77b-11e9-9768-4e3ed7af8184.png">
 
 ### Product Info Page
-<img width="237" alt="Screen Shot 2019-08-05 at 11 41 11" src="https://user-images.githubusercontent.com/33978352/62434232-27e9b980-b77b-11e9-8dfc-79ca5cdd5979.png">
+<img width="239" alt="Screen Shot 2019-08-05 at 12 25 15" src="https://user-images.githubusercontent.com/33978352/62434581-28368480-b77c-11e9-8c57-ee567dd91a0f.png">
 
 ---
 
