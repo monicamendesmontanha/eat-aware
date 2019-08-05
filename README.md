@@ -5,7 +5,7 @@ Mobile project using **JS**, **React**, and **CSS**.  </br>
 <a href="http://" target="_blank">Project: "Eat Aware App"</a>
 
 ---
-- Eat well for a better planet!
+## Eat well for a better planet!
 
 Your diet choices can make a big difference to your personal environmental footprint, from saving water to reducing pollution and the loss of forests.
 
