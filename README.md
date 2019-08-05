@@ -10,12 +10,13 @@ Mobile project using **JS**, **React**, and **CSS**.  </br>
 Your diet choices can make a big difference to your personal environmental footprint, from saving water to reducing pollution and the loss of forests.
 
 Features:
-- [x] Choose a product and check out:
-- How much of this product contributes to annual greenhouse gas emissions;
--  The distance travelled in KM equivalent of driving a regular petrol car;
-- The amount litres of water that are required to produce it.
-- The numbers of showers lasting eight minutes regarding the quantity of water.
-- [x] Mobile friendly (responsive)
+
+- Mobile friendly (responsive)
+- Choose a product and check out:
+- [x] How much of this product contributes to annual greenhouse gas emissions;
+- [x] The distance travelled in KM equivalent of driving a regular petrol car;
+- [x] The amount litres of water that are required to produce it.
+- [x] The numbers of showers lasting eight minutes regarding the quantity of water.
 
 ---
 
