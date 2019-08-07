@@ -2,7 +2,7 @@
 
 Mobile project using **JS**, **React**, and **CSS**.  </br>
 
-<a href="http://" target="_blank">Project: "Eat Aware App"</a>
+<a href="https://eat-aware.herokuapp.com/" target="_blank">Project: "Eat Aware App"</a>
 
 ---
 ## Eat well for a better planet!
